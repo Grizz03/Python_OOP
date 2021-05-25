@@ -9,12 +9,22 @@
 #
 # print('Thank you for entering a number')
 
-import random
+# import random
+#
+# secret_number = random.randrange(1, 11)
+#
+# while True:
+#     guess = int(input('Guess a number between 1 and 10: '))
+#     if guess == secret_number:
+#         print('You guessed the number!')
+#         break
 
-secret_number = random.randrange(1, 11)
+from decimal import Decimal
 
-while True:
-    guess = int(input('Guess a number between 1 and 10: '))
-    if guess == secret_number:
-        print('You guessed the number!')
-        break
+decimal_sum = Decimal(0)
+decimal_sum += Decimal('0.01')
+decimal_sum += Decimal('0.01')
+decimal_sum += Decimal('0.01')
+decimal_sum += Decimal('0.01')
+decimal_sum += Decimal('0.03')
+print('Sum = ', decimal_sum)
