@@ -11,3 +11,13 @@ for x in range(0, len(secret_string)-1, 2):
     norm_string += chr(int(char_code) + 23)  # Converts UNICODE to string
 
 print("Original Message: ", norm_string)
+
+
+# .replace([what to replace], [what to replace with])
+
+# lstrip() strips out white space on left side
+
+# .join() can turn list into string
+
+# .count() can show how many times an item in in a string
+
