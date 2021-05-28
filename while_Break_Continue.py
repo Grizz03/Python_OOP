@@ -1,11 +1,11 @@
-# import random
+import random
 
 # rand_num = random.randrange(1, 51)
 # x = 1  # Initialize outside while loop
 # while x != rand_num:
 #     x += 1  # x = x + 1
 # print('The random value is: ', rand_num)
-
+#
 # x = 1
 # while x <= 20:  # checks if less than 20
 #     if x % 2 == 0:  # checks for even number

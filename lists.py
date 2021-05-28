@@ -10,8 +10,7 @@ print(rand_list[0])
 print('List length ', len(rand_list))
 first_3 = rand_list[0:3]
 
-#  Cycle through list's index
-for x in first_3:
+for x in first_3:  # Cycle through list's index
     print('{} : {}'.format(first_3.index(x), x))  # Value i want out of there and value itself
 
 print(first_3[0] * 3)  # grabs the 0 index of first_3 which is parent to rand_list [grabs the string]
